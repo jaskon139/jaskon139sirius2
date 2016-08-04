@@ -1,6 +1,6 @@
 ####
 # Builds the lucida base image
-FROM jaskon139/hello-ci-workflow
+FROM jaskon139/sirius
 
 WORKDIR "/usr/local/lucida/lucida"
 RUN /usr/bin/make
